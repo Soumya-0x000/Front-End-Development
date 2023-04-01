@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form details</title>
+</head>
+<body background="https://cdn.wallpapersafari.com/68/13/C4RHKl.jpg">
+    
+    <header title="My qualifications" style="text-align: center;">
+        <div>
+            <font color="cyan" size="10" face="courier">
+                <b>Fill up the form</b>
+            </font> 
+        </div>
+    </header>
+
+    <hr color="cyan">
+
+    <main>
+        <div>
+            <font face="consolas" color="orange" style="text-align: center;" size="5">
+                <h2><u>&DoubleRightTee;  Fill it up  &DoubleLeftTee;</u></h2>
+            </font>
+        </div>
+        <div>
+            <font face="courier"  size="4">
+                <form action="">
+                    <!-- Name section -->
+                    <div style="text-align: center;">   
+                        <label for="fname" style="color: rgb(9, 219, 149);">First name</label><br>
+                        <input type="text" id="fname" size="50" placeholder="Soumya" required><br>
+                        <label for="mname" style="color: rgb(9, 219, 149);">Middle name</label><br>
+                        <input type="text" id="mname" size="50" placeholder="Sankar" required><br>
+                        <label for="lname" style="color: rgb(9, 219, 149);">Last name</label><br>
+                        <input type="text" id="lname" size="50" placeholder="Das" required><br>
+                        <label for="Nname" style="color: rgb(9, 219, 149);">Nick name</label><br>
+                        <input type="text" id="Nname" size="50"><br>
+                    </div>
+                    <!-- email section -->
+                    <div style="text-align: center;">
+                        <label for="email" style="color: rgb(9, 219, 149);">Email</label><br>
+                        <input type="email" id="email" size="50" placeholder="abcd@gmail.com"><br><br>
+                    </div>
+                    <!-- Gender section -->
+                    <div style="text-align: center;">
+                        <span style="color: rgba(152, 73, 241, 0.952);"><u>Gender</u></span><br>
+                        <input type="radio" id="male" required>
+                        <label for="male" style="color: aquamarine;">Male</label>
+                        <input type="radio" id="Female" required>
+                        <label for="Female" style="color: aquamarine;">Female</label>
+                        <input type="radio" id="other" required>
+                        <label for="other" style="color: aquamarine;">Other</label><br><br>
+                    </div>
+                    <!-- Date of birth section -->
+                    <div style="text-align: center;">
+                        <label for="DOB" style="color: rgb(236, 91, 236);">Date of birth &DoubleLongRightArrow;</label>
+                        <input type="datetime-local" id="DOB" required><br><br>
+                    </div>
+                    <!-- Address -->
+                    <div style="text-align: center;">
+                        <label for="address" style="color: aquamarine;">Address</label><br>
+                        <textarea name="Address" id="address" cols="50" rows="2"></textarea><br>
+                        input
+                    </div>
+                    <!-- Language used to make this form -->
+                    <div style="text-align: center;">
+                        <span style="color: rgb(215, 241, 95);">This form is made up of</span><br>
+                        <label for="html" style="color: rgb(100, 138, 219); text-align: left;">HTML</label>
+                        <input type="checkbox" name="" id="html">
+                        <label for="CSS" style="color: rgb(100, 138, 219);" required>CSS</label>
+                        <input type="checkbox" name="" id="CSS">
+                        <label for="JS" style="color: rgb(100, 138, 219);" required>JavaScript</label>
+                        <input type="checkbox" name="" id="JS"><br><br>
+                    </div>
+                    <!-- Contact no -->
+                    <div style="text-align: center;">
+                        <label for="Contact no" style="color: rgb(221, 113, 243);">Contact no</label><br>
+                        <input type="tel" name="Contact no" id="Contact no" size="50" placeholder="123-456-789" pattern="[0-9]{5}-[0-9]{5}" required><br><br>
+                    </div>
+                    <!-- password section -->
+                    <div style="text-align: center;">
+                        <label for="pswd" style="color: rgba(241, 133, 70, 0.932);">Enter password</label><br>
+                        <input type="password" name="pswd" id="pswd" size="50" required><br><br>
+                    </div>
+                    <!-- GF section -->
+                    <div style="text-align: center;">
+                        <label for="GF_no" style="color: rgb(57, 225, 247);">Till now how many times has your heart been broken??</label><br>
+                        <input type="number" name="GF_no" id="GF_no" size="50"><br><br>
+                    </div>
+                    <!-- Time -->
+                    <div style="text-align: center;">
+                        <label for="wtime" style="color: rgb(245, 87, 108);">Usually when you wakes up??</label>
+                        <input type="time" name="wtime" id="wtime"><br>
+                        <label for="stime" style="color: rgb(245, 87, 108);">Usually when you goes to bed??</label>
+                        <input type="time" name="stime" id="stime"><br><br>
+                    </div>
+                    <!-- Volume level -->
+                    <div style="text-align: center;">
+                        <label for="vol" style="color: rgb(166, 146, 238);">Current volume level :</label>
+                        <input type="range" name="vol" id="vol"><br></br>
+                    </div>
+                    <!-- Special month -->
+                    <div style="text-align: center;">
+                        <label for="spmonth" style="color: rgb(87, 245, 153);">Special month :</label>
+                        <input type="month" name="spmonth" id="spmonth"><br><br>
+                    </div>
+                    <!-- Color section using table-->
+                    <div align="center">
+                        <table border="5" cellpadding="6" cellspacing="1" style="text-align: center; width: 40%;">
+                            <thead>
+                                <th colspan="2"><font style="color: aqua;">Favorite colors</font></th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="7">
+                                        <font style="color: aqua;">
+                                            <div style="text-align: center;">My 7 favorite colors are</div>
+                                        </font>
+                                    </th>
+                                    <td>
+                                        <label for="color1" style="color: rgb(240, 87, 144);">Color_1 :</label>
+                                        <input type="color" name="color1" id="color1">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="color2" style="color: rgb(245, 87, 144);">Color_2 :</label>
+                                        <input type="color" name="color2" id="color2">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="color3" style="color: rgb(245, 87, 144);">Color_3 :</label>
+                                        <input type="color" name="color3" id="color3">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="color4" style="color: rgb(245, 87, 144);">Color_4 :</label>
+                                        <input type="color" name="color4" id="color4">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="color5" style="color: rgb(245, 87, 144);">Color_5 :</label>
+                                        <input type="color" name="color5" id="color5">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="color6" style="color: rgb(245, 87, 144);">Color_6 :</label>
+                                        <input type="color" name="color6" id="color6">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="color7" style="color: rgb(245, 87, 144);">Color_7 :</label>
+                                        <input type="color" name="color7" id="color7">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                    </div>
+                    <!-- File section -->
+                    <div style="color: rgb(225, 138, 236); text-align: center;">
+                        <label for="fl" style="color: rgb(190, 140, 231);">Choose a file to upload</label><br>
+                        <input type="file" name="fl" id="fl"><br><br>
+                    </div>
+                    <!-- Reset section -->
+                    <div style="text-align: center;">
+                        <input type="reset" value="Reset the whole form" style="color: rgb(19, 54, 170);"><br><br>
+                    </div>
+                    <!-- Future MNC section -->
+                    <div style="text-align: center; color: aqua;">
+                        <label for="target_MNC">In which MNC you would like to go??</label><br>
+                        <label for="target_MNC">Here are TOP 20 MNC</label>
+                        <select name="MNC" id="target_MNC" style="color: rgb(189, 243, 145); background-color: rgb(27, 2, 54);" size="2">
+                            <option value="Google">Google</option>
+                            <option value="Meta">Meta</option>
+                            <option value="Salesforce">Salesforce</option>
+                            <option value="Microsoft">Microsoft</option>
+                            <option value="Netflix">Netflix</option>
+                            <option value="Apple">Apple</option>
+                            <option value="Accenture">Accenture</option>
+                            <option value="Cisco">Cisco</option>
+                            <option value="Intuit">Intuit</option>
+                            <option value="Bloomberg">Bloomberg</option>
+                            <option value="eBay">eBay</option>
+                            <option value="Hubspot">Hubspot</option>
+                            <option value="LogMeln">LogMeln</option>
+                            <option value="Adobe">Adobe</option>
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="Zynga">Zynga</option>
+                            <option value="Goldman Sachs">Goldman Sachs</option>
+                            <option value="NVIDIA">NVIDIA</option>
+                            <option value="VMware">VMware</option>
+                            <option value="Visa">Visa</option>
+                        </select>
+                        <br><br>
+                    </div>
+                    <!-- Submit -->
+                    <div style="text-align: center;">
+                        <label for="Submit" style="color: chartreuse;">Click it to submit</label><br>
+                        <input type="image" src="https://th.bing.com/th/id/OIP.7sAmw3avMEvf6udJHs4fUwHaEK?w=283&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="click it" width="191" height="80">
+                        <!-- <input type="submit" style="color: rgb(24, 114, 2);"> -->
+                    </div>
+                </form>
+            </font>
+        </div>    
+    </main>
+
+    <hr color="orange">
+
+    <footer style="text-align: center;">
+        <div>
+            <font face="courier" size="6" color="cyan">
+                <b>Nothing more to see</b>
+            </font>
+        </div>
+    </footer>
+
+    <hr color="orange">
+</body>
+</html>
